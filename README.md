@@ -1,11 +1,11 @@
-## Authentication Model
-A simple User Authentication Model using JWT. 
-User interface that allows users to sign up and login into their accounts with basic role. Accounts with admin access have the power to edit or delete a user. This is done by allowing the admin special page which has list of all the users and options to update or delete. The user data is encrypted through Bcrypt and saved in the database. The passwords are hashed and thus this makes this authentication model safe and secure.
+## SIH Portal for tracking missing people/children
+A simple User interface which allows you to track/find a missing person. 
 
-The site is live at : https://user-auth-system-by-rahul.herokuapp.com/
 
-<a target="_blank" href="https://user-auth-system-by-rahul.herokuapp.com/">
-          <img src="https://github.com/rahulkarda/user-auth/blob/master/assets/user-auth.jpg?raw=true" width="100%" alt="User Auth"/>
+The site is live at : https://missing-portal.herokuapp.com/
+
+<a target="_blank" href="">
+          <img src="" width="100%" alt="Missing Portal"/>
 </a>
 
 
@@ -28,8 +28,7 @@ While improving this project, I would start by implementing the following featur
 
    1. Implementing the forgot password feature
    2. Adding support for login with Google, Github accounts
-   3. Allowing users to login with email services
+   3. Adding fingerprint scan 
               
 ## Lessons Learned
-I learned how to create a user authentication model using JWT.
-My learning was focused on creating a user interface that makes allows users to sign up and login to the system using password. This is done by allowing the users to sign up and login into their accounts with basic role. Accounts with admin access have the power to edit or delete a user. I learned how to hash passwords and store them into database securely. I learned about different cryptographic implementation techniques.
+
